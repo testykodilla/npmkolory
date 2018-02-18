@@ -8,6 +8,6 @@ function wyswietlanie() {
     var minuty = Math.floor(os.uptime()/60);
 
 
-    console.log(colors.rainbow("Uptime: ") + godziny + " hours " + (minuty - godziny*60) + " minutes and " + (sekundy - minuty*60) + "seconds");
+    console.log(colors.rainbow("Uptime: ") + godziny + " hours " + (minuty - godziny*60) + " minutes and " + (sekundy - minuty*60) + " seconds");
 }
 exports.print = wyswietlanie;
